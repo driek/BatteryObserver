@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="hello">This application monitors battery and gives an onscreen message every time the status of the battery changes.</string>
+    <string name="hello">This application monitors the battery and gives an onscreen message every time the status of the battery changes.</string>
     <string name="app_name">BatteryObserver</string>
 
 </resources>
