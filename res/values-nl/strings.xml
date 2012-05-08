@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Deze applicatie houdt de lading van de accu in de gaten en wanneer deze veranderd geeft het een melding.</string>
+    <string name="charge_text">"De lading van de accu is %1$.1f%%."</string>
+    
+</resources>

@@ -3,5 +3,5 @@
 
     <string name="hello">This application monitors the battery and gives an onscreen message every time the status of the battery changes.</string>
     <string name="app_name">BatteryObserver</string>
-
+	<string name="charge_text">Current charge of the battery is %1$.1f%%.</string>
 </resources>
