@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="hello">Deze applicatie houdt de lading van de accu in de gaten en wanneer deze veranderd geeft het een melding.</string>
+    <string name="from_battery_level_input_label">Vanaf welke resterende lading van de accu wil je geinformeerd worden? (bijv. 30%)</string>
+    <string name="from_battery_level_input_hint">Een waarde tussen 0 en 100</string>
+    <string name="interval_battery_level_input_label">Op welke intervallen wil je geinformeerd worden? (bijv. om de 5%)</string>
+    <string name="interval_battery_level_input_hint">Een waarde tussen 1 en 99</string>
+	<string name="battery_level_settings_save_button">Sla instellingen op</string>
+	<string name="show_toast_checkbox_label">Toon een melding op het midden van het scherm</string>
+	<string name="show_sb_noti_checkbox_label">Toon statusbalk melding</string>
+	<string name="settings_saved">Instellingen zijn opgeslagen</string>
+    <string name="app_name">Battery Observer</string>
     <string name="charge_text">"De lading van de accu is %1$.1f%%."</string>
     
 </resources>

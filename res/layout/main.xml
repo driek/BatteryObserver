@@ -7,6 +7,60 @@
     <TextView
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
         android:text="@string/hello" />
+
+    <TextView
+        android:id="@+id/from_battery_level_input_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/from_battery_level_input_label" />
+
+    <EditText
+        android:id="@+id/from_battery_level_input_field"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxLength="3"
+        android:hint="@string/from_battery_level_input_hint"
+        android:inputType="number" 
+        android:text="@string/DEFAULT_BATTERY_LEVEL_NOTIFICATION_THRESHOLD">
+        <requestFocus />
+	</EditText>
+        
+    <TextView
+        android:id="@+id/interval_battery_level_input_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/interval_battery_level_input_label" />
+
+    <EditText
+        android:id="@+id/interval_battery_level_input_field"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxLength="2"
+        android:hint="@string/interval_battery_level_input_hint"
+        android:inputType="number" 
+        android:text="@string/DEFAULT_BATTERY_LEVEL_NOTIFICATION_INTERVAL">
+    </EditText>
+
+    <CheckBox
+        android:id="@+id/showToast"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/show_toast_checkbox_label" />
+
+    <CheckBox
+        android:id="@+id/showSBNoti"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/show_sb_noti_checkbox_label" 
+        android:checked="true"/>
+
+    <Button
+        android:id="@+id/settingsSaveButton"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:onClick="saveSettings"
+        android:text="@string/battery_level_settings_save_button" />
 
 </LinearLayout>

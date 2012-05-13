@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
     <string name="hello">This application monitors the battery and gives an onscreen message every time the status of the battery changes.</string>
-    <string name="app_name">BatteryObserver</string>
+    <string name="from_battery_level_input_label">From which battery level onward do you want to be informed? (i.e. 30%)</string>
+    <string name="from_battery_level_input_hint">A numeric value between 0 and 100</string>
+    <string name="interval_battery_level_input_label">At which interval do you want to be informed? (i.e. every 5%)</string>
+    <string name="interval_battery_level_input_hint">A numeric value between 1 and 99</string>
+	<string name="battery_level_settings_save_button">Save settings</string>
+	<string name="show_toast_checkbox_label">Show floating message</string>
+	<string name="show_sb_noti_checkbox_label">Show statusbar notification</string>
+	<string name="settings_saved">Settings are saved</string>
+    <string name="app_name">Battery Observer</string>
 	<string name="charge_text">Current charge of the battery is %1$.1f%%.</string>
+	
+	<string name="DEFAULT_BATTERY_LEVEL_NOTIFICATION_THRESHOLD">50</string>
+	<string name="DEFAULT_BATTERY_LEVEL_NOTIFICATION_INTERVAL">2</string>
 </resources>
