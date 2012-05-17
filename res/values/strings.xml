@@ -11,7 +11,7 @@
 	<string name="settings_saved">Settings are saved</string>
     <string name="app_name">Battery Observer</string>
 	<string name="charge_text">Current charge of the battery is %1$.1f%%.</string>
-	
+	<string name="fill_in_valid_numbers">Please fill in valid numbers.</string>
 	<string name="DEFAULT_BATTERY_LEVEL_NOTIFICATION_THRESHOLD">50</string>
 	<string name="DEFAULT_BATTERY_LEVEL_NOTIFICATION_INTERVAL">2</string>
 </resources>

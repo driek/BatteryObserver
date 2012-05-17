@@ -10,5 +10,6 @@
 	<string name="show_sb_noti_checkbox_label">Show statusbar notification</string>
 	<string name="settings_saved">Settings are saved</string>
     <string name="app_name">Battery Observer</string>
+    <string name="fill_in_valid_numbers">Please fill in valid numbers.</string>
     <string name="charge_text">"現在のチャージは%1$.1f%%。"</string>
 </resources>

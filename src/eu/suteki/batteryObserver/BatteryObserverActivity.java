@@ -36,6 +36,11 @@ public class BatteryObserverActivity extends Activity
 	{
 		EditText fromBattery = (EditText) findViewById(R.id.from_battery_level_input_field);
 		EditText intervalBattery = (EditText) findViewById(R.id.interval_battery_level_input_field);
+		if (fromBattery.getText().toString().length() == 0 || intervalBattery.toString().length() == 0)
+		{
+			Toast.makeText(this, getString(R.string.fill_in_valid_numbers), Toast.LENGTH_LONG).show();
+			return;
+		}
 		CheckBox showToastCB = (CheckBox) findViewById(R.id.showToast);
 		CheckBox showSBNotiCB = (CheckBox) findViewById(R.id.showSBNoti);
 		int fromBatteryLevel = Integer.parseInt(fromBattery.getText().toString());

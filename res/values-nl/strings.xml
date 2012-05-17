@@ -9,6 +9,7 @@
 	<string name="show_toast_checkbox_label">Toon een melding op het midden van het scherm</string>
 	<string name="show_sb_noti_checkbox_label">Toon statusbalk melding</string>
 	<string name="settings_saved">Instellingen zijn opgeslagen</string>
+	<string name="fill_in_valid_numbers">Vul cijfers in.</string>
     <string name="app_name">Battery Observer</string>
     <string name="charge_text">"De lading van de accu is %1$.1f%%."</string>
     
